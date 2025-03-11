@@ -1,5 +1,6 @@
 {
   "name": "dashboard-app",
+  "homepage": " https://Praveen8722.github.io/sketch-monk-task",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,7 +8,9 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predelpoy":"npm run build",
+     "deploy":"gh-pages -d dist"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
